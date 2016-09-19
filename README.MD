@@ -3,7 +3,7 @@
 A repository to get initiated to the git side of the dev, containing some explanations and resources for you to get started with it.
 
 #SUMMARY
-1. git init
+1. [git init](./01 - git init/01 - git init.MD)
 2. git add, rm, reset, checkout
 3. git commit, --amend
 4. git branch
