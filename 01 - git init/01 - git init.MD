@@ -78,3 +78,6 @@ refs/
 
 All of these files and folders are hidden in the `.git` repository. Though they exists as core components of Git, you won't need to access them. It's nice to know they're there though !
 
+---
+
+Go to the [next chapter](../02 - The Staging Area/02 - The Staging Area.MD) or [back to the home page](../README.MD).

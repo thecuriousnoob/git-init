@@ -4,7 +4,7 @@ A repository to get initiated to the git side of the dev, containing some explan
 
 #SUMMARY
 1. [git init](./01 - git init/01 - git init.MD)
-2. git add, rm, reset, checkout
+2. [The Staging Area](./02 - The Staging Area/02 - The Staging Area.MD)
 3. git commit, --amend
 4. git branch
 5. git merge
