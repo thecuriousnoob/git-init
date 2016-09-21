@@ -100,4 +100,4 @@ Use this one with extreme care since you won't be able to get back your files th
 
 ---
 
-Go to the [previous chapter](../01 - git init/01 - git init.MD) or [back to the home page](../README.MD). 
+Go to the [previous chapter](../01 - git init/01 - git init.MD) or to the [next chapter](../03 - Commits/03 - Commits.MD) or [back to the home page](../README.MD). 
