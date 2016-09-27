@@ -6,8 +6,7 @@ A repository to get initiated to the git side of the dev, containing some explan
 1. [git init](./01 - git init/01 - git init.MD)
 2. [The Staging Area](./02 - The Staging Area/02 - The Staging Area.MD)
 3. [Commits](./03 - Commits/03 - Commits.MD)
-4. git branch
-5. git merge
+4. [Working with Remotes](./04 - Working with Remotes/04 - Working with Remotes.MD)
 
 #APPENDIXES
 * A1 : A brief history of Git

@@ -223,4 +223,4 @@ $ git log --oneline
 
 ---
 
-Go to the [previous chapter](../02 - The Staging Area/02 - The Staging Area.MD) or [back to the home page](../README.MD).
+Go to the [previous chapter](../02 - The Staging Area/02 - The Staging Area.MD) or to the [next chapter](../04 - Working with Remotes/04 - Working with Remotes.MD) or [back to the home page](../README.MD).
