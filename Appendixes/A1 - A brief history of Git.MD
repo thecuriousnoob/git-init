@@ -32,4 +32,4 @@ and the name as (depending on your mood):
 
  ---
 
- Go [back to the home page](../README.MD).
+ Go to [Appendix 2](./A2 - Git vs SVN.MD) or [back to the home page](../README.MD).
