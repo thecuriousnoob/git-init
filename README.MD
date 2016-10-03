@@ -9,8 +9,8 @@ A repository to get initiated to the git side of the dev, containing some explan
 4. [Working with Remotes](./04 - Working with Remotes/04 - Working with Remotes.MD)
 
 #APPENDIXES
-* [A1 : A brief history of Git](./Appendixes/A1 - A brief history of Git.MD)
-* [A2 : Git vs SVN](./Appendixes/A2 - Git vs SVN.MD)
+1. [A brief history of Git](./Appendixes/A1 - A brief history of Git.MD)
+2. [Git vs SVN](./Appendixes/A2 - Git vs SVN.MD)
 
 #ADDITIONAL RESOURCES
 _TODO_
