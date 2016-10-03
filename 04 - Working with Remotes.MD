@@ -99,7 +99,7 @@ To https://github.com/thecuriousnoob/git-init.git
 ```
 
 ###`-f` option, be careful when using the Force
-In case you've already pushed a commit to your remote and decided to amend this commit locally, if you try pushing this commit you'll get an error ! In fact your original commit is identified by some hash on the remote (e.g. `63efb56`) and as you've seen in the [previous chapter](../03 - Commits/03 - Commits.MD), when you amend a commit, its hash changes !
+In case you've already pushed a commit to your remote and decided to amend this commit locally, if you try pushing this commit you'll get an error ! In fact your original commit is identified by some hash on the remote (e.g. `63efb56`) and as you've seen in the [previous chapter](./03 - Commits.MD), when you amend a commit, its hash changes !
 
 This means the remote HEAD is not pointing at the same reference than the local HEAD.
 
@@ -169,4 +169,4 @@ To https://github.com/thecuriousnoob/git-init.git
 
 ---
 
-Go to the [previous chapter](../03 - Commits/03 - Commits.MD) or [back to the home page](../README.MD).
+Go to the [previous chapter](./03 - Commits.MD) or [back to the home page](./README.MD).

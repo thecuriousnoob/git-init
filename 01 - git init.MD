@@ -34,7 +34,7 @@ A really healthy command to run is `git status`. This will give you the state of
 
 It's really good to often run `git status`. At some point it becomes a reflex.
 
-Here's what `git status would return if you run it in your newly initialized repository :
+Here's what `git status` would return if you run it in your newly initialized repository :
 
 ```
 On branch master
@@ -80,4 +80,4 @@ All of these files and folders are hidden in the `.git` repository. Though they 
 
 ---
 
-Go to the [next chapter](../02 - The Staging Area/02 - The Staging Area.MD) or [back to the home page](../README.MD).
+Go to the [next chapter](./02 - The Staging Area.MD) or [back to the home page](./README.MD).

@@ -22,4 +22,4 @@ A good point with local commits is that it allows you do many atomic commits ful
 
  ---
 
- Go [back to the home page](../README.MD).
+ Go [back to the home page](./README.MD).
