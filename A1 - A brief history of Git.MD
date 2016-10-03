@@ -1,5 +1,10 @@
 #Appendix 1 - A brief history of Git
 
+##Summary
+ * [The needs](#the-needs)
+ * [Fun fact about Git](#fun-fact-about-git)
+ * [Additional Resources](#additional-resources)
+
 ##The needs
 In 1991, Linus Torvalds (LT) created the Linux kernel. Its versionning was done using basic archives stored on servers because LT didn't liked centralized source code manager systems.
 

@@ -2,8 +2,12 @@
 
 First we'll see `git init` command and a bit of what happens under the layer.
 
-##git init
+##Summary
+ * [git init](#git-init)
+ * [git status](#git-status)
+ * [Further explanations](#further-explanations)
 
+##git init
 This command initializes a new empty git repository in your working folder.
 
 You can type this command into any folder you'd like to manage with git even though it already contains files or not.
@@ -29,7 +33,6 @@ Reinitialized existing Git repository in /path/where/you/work
 Once you've initialized your Git repository you're ready to go !
 
 ##git status
-
 A really healthy command to run is `git status`. This will give you the state of your Git repository.
 
 It's really good to often run `git status`. At some point it becomes a reflex.
@@ -47,7 +50,6 @@ nothing to commit (create/copy files and use "git add" to track)
 So remember to run as often as you can `git status` ! This can save your life, trust me ;-)
 
 ##Further explanations
-
 What happens when you execute `git init` command ?
 
 Well if you type in `ls -a` you should see a new hidden folder named `.git`.

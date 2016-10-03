@@ -4,13 +4,20 @@ You've initialized a Git repository in your working folder and have done some st
 
 This chapter will give you some tools about this.
 
+##Summary
+ * [What is the Staging Area ?](#what-is-the-staging-area-)
+ * [Tracked files and untracked files](#tracked-files-and-untracked-files)
+ * [git add](#git-add)
+ * [git reset](#git-reset)
+ * [git checkout -- [file]](#git-checkout----file)
+ * [git rm](#git-rm)
+
 ##What is the Staging Area ?
 Considering a commit as a snapshot of all the files you've edited you can think of the Staging Area as the photobooth in which you have to gather the files to get a snapshot of.
 
 In this area you can add files you want to commit, remove some (definitely or not) or not.
 
 ##Tracked files and untracked files
-
 At this point, if you run `git status` command you should obtain this response :
 
 ```
@@ -28,7 +35,6 @@ nothing added to commit but untracked files present (use "git add" to track)
 When a new file is added to a Git repository and has never been committed its changes are not tracked by Git. So are they considered as Untracked. In the other case, they would be tracked and we'll see later that this can lead up to some pretty cool shortcuts.
 
 ##git add
-
 So for now we want to get our new files tracked by Git and we need to take a snapshot of these files first. So... let's add them to the Staging Area !
 
 We will use `git add` command. There are various ways to use this command :
@@ -61,7 +67,6 @@ Changes to be committed:
 Now your changes are set on the Staging Area and ready to be committed !
 
 ##git reset
-
 If you're paying attention to what Git returns in the terminal you might have noticed this hint:
 
 ```
@@ -76,8 +81,7 @@ As well as `git add` you can list numerous files before running the command and 
 git reset HEAD *
 ```
 
-##git checkout -- <file>
-
+##git checkout -- [file]
 Consider now that you've made some changes you want to discard from your working tree. Here's the command that you'll need to run. This will discard changes in the specified files *that are not added to your indexed changes yet* (modified files where you didn't already run `git add` on).
 
 ```
@@ -89,7 +93,6 @@ Note that you can use the * trick as well if you wish to discard all changes fro
 Also note that if you want to discard changes from an indexed file you'll first need to run `git reset HEAD <file>` so it drops the file from your index to your working tree and then you'll be able to `git checkout --` that file.
 
 ##git rm
-
 If you want to completely get rid of a file (from your index and your working tree as well) then you can run:
 
 ```
@@ -100,4 +103,4 @@ Use this one with extreme care since you won't be able to get back your files th
 
 ---
 
-Go to the [previous chapter](./01 - git init.MD) or to the [next chapter](./03 - Commits.MD) or [back to the home page](./README.MD). 
+Go to the [previous chapter](./01 - git init.MD) or to the [next chapter](./03 - Commits.MD) or [back to the home page](./README.MD).

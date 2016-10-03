@@ -2,6 +2,11 @@
 
 There are many advantages to use Git rather than SVN as both appendixes 1 et 2 additional resources can show you. In this appendix we'll only see the two biggest.
 
+##Summary
+ * [Centralized VCS vs Distributed VCS](#centralized-vcs-vs-distributed-vcs)
+ * [Remote commits vs Local commits](#remote-commits-vs-local-commits)
+ * [Additional Resources](#additional-resources)
+
 ##Centralized VCS vs Distributed VCS
 The very first difference between Git and SVN is that Git is a distributed VCS while SVN is a centralized one.
 

@@ -4,8 +4,12 @@ All modified files have been staged and here you are ready to take a snapshot of
 
 This chapter is going to show some commands to deal with commits. Get ready to be a commit king !
 
-##git commit
+##Summary
+ * [git commit](#git-commit)
+ * [git log](#git-log)
+ * [git reset: the return](#git-reset-the-return)
 
+##git commit
 A commit is a snapshot of some modifications brought to some files referenced by a hash and a message.
 
 To commit your staged changes run:
@@ -33,7 +37,6 @@ Both of these informations are right next to your commit message. Then we have:
 * the total number of insertions (number of lines you've added) and/or deletions (number of lines you've deleted).
 
 ###`-a`
-
 Once a file gets committed it gets tracked by Git. In this case if we modify that file later and would like to commit these changes we could use a short cut to skip on the `git add` step by running `git commit -a`.
 
 Like mentionned: this shortcut will work only on tracked files. Any untracked file won't be added. You have to add them manually using `add` command.
@@ -76,7 +79,6 @@ nothing added to commit but untracked files present (use "git add" to track)
 ```
 
 ###`-m`
-
 Another cool shortcut is this one. When you frequently use Git you can get tired with all the gitCommitOpenEditorTypeYourMessageSaveQuit process, so Git provides this `-m` option to `git commit` so you can directly type in a short commit message !
 
 Just pay an extreme care to the quotes ! Don't forget to surround your message with it ;-)
@@ -90,7 +92,6 @@ $ git commit -m "Update in myAwesomeFile2"
 How cool is that ? :-) Well, we have more to see !
 
 ###`--amend`
-
 You've just committed some changes. Cool ! But you've just forgot to add a bunch of modifications in this commit. Crap ! What can we do ? Aw and my commit message will no longer be explicit if I add these modifications...
 
 Stop ! Keep calm and use `git commit --amend` ;-) This will solve both of the problems mentionned above and here's how :
@@ -138,7 +139,6 @@ As a response we'll get some updated informations about our commit :
 * Files changed : 2 (myAwesomeFile3 and myAwesomeFile1 though it's not printed out).
 
 ##git log
-
 A cool command to check you commits history in git is `git log`.
 
 ```
@@ -168,11 +168,9 @@ cf4b38f Awesome change in myAwesomeFile2
 ```
 
 ##git reset: the return
-
 Remember `git reset` ? We've used this command in the previous chapter to unstage files. Well guess what ? This command has some more to offer !
 
 ###`--soft`
-
 You've committed changes but you want to do some more changes on your files. We've seen that we could amend our last commit. But if we also want to undo/edit some older changes in older commits amend option won't be useful. Well `git reset --soft` will do the trick, and here's how.
 
 By typing `git reset --soft HEAD~<numberofcommitstoreset>` we will drop our commits and keep our changes in the Staging Area, ready to be committed. See example below :
@@ -199,7 +197,6 @@ $ git log --oneline
 ```
 
 ###`--hard`
-
 This is an option you would use if you're really angry at someone for his work. `git reset --hard` is used just like `git reset --soft` except that *IT DROPS ALL OF YOUR CHANGES*. So it must be used with *EXTREME CARE* knowing exactly what you're doing.
 
 Example :

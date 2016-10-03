@@ -2,6 +2,15 @@
 
 The first big step to use git is to know how to commit some changes. Once done these changes are locally committed. This obviously means that if anything bad happens to your storage system, your work could get in trouble. Plus if you would like to share your work with peers it would get a bit tedious.
 
+##Summary
+ * [About remotes](#about-remotes)
+ * [Add a remote](#add-a-remote)
+ * [List remotes](#list-remotes)
+ * [Renaming a remote](#renaming-a-remote)
+ * [Deleting a remote](#deleting-a-remote)
+ * [Pushing your changes to a remote](#pushing-your-changes-to-a-remote)
+
+##About remotes
 Let's talk about remotes which are remote hosts for your work somewhere on the Internet (like this repository on GitHub is a remote host of my local repository for git-init).
 
 As a prerequisite you need to get a URL to locate your remote repository which can be either an HTTPS URL or a SSH URL.
@@ -17,7 +26,7 @@ So we simply need to run :
 $ git remote add origin https://github.com/thecuriousnoob/git-init.git
 ```
 
-##See all remotes
+##List remotes
 We've just added a remote to our repository but you might have noticed that the console doesn't return you any information about it. So if you want to make sure that your operation was successful you can list your configured remotes by simply running :
 
 ```
