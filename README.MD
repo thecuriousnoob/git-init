@@ -14,4 +14,4 @@ A repository to get initiated to the git side of the dev, containing some explan
 
 #PRACTICE GIT ONLINE
 Learn how to use Git with Code School's interactive course [Try Git: Git Tutorial](https://try.github.io/) directly in your browser !
-You'll practice everything presented in this course and even a few more notions that will be part of another project call `GIT PUSH` ;-)
+You'll practice everything presented in this course and even a few more notions that are part of a sequel called [Git Push](https://github.com/thecuriousnoob/git-push) ;-)
